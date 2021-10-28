@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.results{
+  width: 25rem;
+  display: flex;
+  padding: 0.7rem;
+  background-color: grey;
+  color: gold;
+  font-weight: bold;
+  letter-spacing: 0.1rem; 
+  flex-direction: column;
+  border:5px solid black;
+}
+.keys{
+  display: flex;
+  width: 25rem;
+  height: 50vh;
+  align-self: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: rgb(87, 87, 87);;
+}
+
+.keys :nth-child(1){
+  width: 40.7%;
+  border:3px solid red;
+}
+.keys :nth-child(2){
+  width: 25%;
+  border:3px solid purple;
+
+}
+.keys :nth-child(3){
+  width: 25%;
+  border:3px solid purple;
+}
+.keys :nth-child(7){
+  border:3px solid purple;
+
+}
+.keys :nth-child(11){
+  border:3px solid purple;
+
+}
+.keys :nth-child(15){
+  border:3px solid purple;
+
+}
+.keys :nth-child(16){
+  width: 72%;
+}
+.keys :nth-child(17){
+  border:3px solid gold;
+}
+
+.calculator{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center ;
+}
+.key{
+  display: flex;
+  width: 21.8%;
+  height: 5vh;
+  margin: 0.2rem;
+  color: white;
+  border:3px solid white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 48, 48);
+  cursor: pointer;
+}
+.key:hover{
+  border: 3px solid rgb(0, 92, 128)
+}
